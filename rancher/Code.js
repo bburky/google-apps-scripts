@@ -6,21 +6,7 @@ function doGet() {
     "version": "https://jsonfeed.org/version/1",
     "title": "Rancher Security Advisories",
     "home_page_url": "https://rancher.com/docs/rancher/v2.x/en/security/",
-    //"feed_url": "https://example.org/feed.json",
     "items": []
-    // [
-    //     {
-    //         "id": "2",
-    //         "content_text": "This is a second item.",
-    //         "title": "foo",
-    //         "url": "https://unsat.cs.washington.edu/news/"
-    //     },
-    //     {
-    //         "id": "1",
-    //         "content_html": "<p>Hello, world!</p>",
-    //         "url": "https://example.org/initial-post"
-    //     }
-    // ]
   }
 
   const content = UrlFetchApp.fetch(feed.home_page_url).getContentText();

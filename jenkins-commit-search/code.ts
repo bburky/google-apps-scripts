@@ -4,21 +4,7 @@ function doGet() {
     "version": "https://jsonfeed.org/version/1",
     "title": "Jenkins Security Commit Search",
     "home_page_url": "https://github.com/search?o=desc&q=org%3Ajenkinsci+security&s=committer-date&type=Commits",
-    //"feed_url": "https://example.org/feed.json",
     "items": []
-    // [
-    //     {
-    //         "id": "2",
-    //         "content_text": "This is a second item.",
-    //         "title": "foo",
-    //         "url": "https://unsat.cs.washington.edu/news/"
-    //     },
-    //     {
-    //         "id": "1",
-    //         "content_html": "<p>Hello, world!</p>",
-    //         "url": "https://example.org/initial-post"
-    //     }
-    // ]
   }
   const url = "https://api.github.com/search/commits?sort=committer-date&order=desc&q=org:jenkinsci%20security";
   const options = {
