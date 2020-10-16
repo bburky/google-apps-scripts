@@ -16,14 +16,17 @@ function doGet() {
     const $el = $(el);
     const url = "https://support.sonatype.com" + $el.attr('href');
     const match = /.* - (\d{4}-\d\d-\d\d)/.exec($el.text());
-    return {
+    const ret =  {
       "id": url,
       "url": url,
-      "date_published": match[1],
       "title": $el.text(),
       "content_text": $el.text(),
     }
+    if (match) {
+      ret.date_published = match[1];
+    }
+    return ret;
   }).toArray();
-  
+
   return ContentService.createTextOutput(JSON.stringify(feed)).setMimeType(ContentService.MimeType.JSON);
 }
