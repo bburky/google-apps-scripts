@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext"
+    ],
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node"
+  },
+}
