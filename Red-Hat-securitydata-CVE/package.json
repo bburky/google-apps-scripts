@@ -8,6 +8,7 @@
     "push": "clasp push",
     "redeploy": "clasp deploy --deploymentId \"$(clasp deployments | tail -n1 | cut -d' ' -f2)\"",
     "webapp": "clasp open --webapp",
+    "test": "npm run build && NODE_ENV=development npx node -e 'console.log(require(\"./build/\")({parameter:{package:\"keycloak\"}, queryString:\"package=keycloak\"}))'",
     "all": "npm run build && npm run push && npm run redeploy && npm run webapp"
   },
   "author": "Blake Burkhart",
@@ -21,8 +22,7 @@
     "@types/node": "^16.7.10",
     "rollup": "^2.56.3",
     "rollup-plugin-typescript2": "^0.30.0",
+    "sync-request": "^6.1.0",
     "typescript": "^4.4.2"
-  },
-  "dependencies": {
   }
 }

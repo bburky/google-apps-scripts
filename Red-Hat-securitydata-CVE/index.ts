@@ -1,8 +1,11 @@
 import { JSONFeed, JSONFeedItem } from '../jsonschema'
+import { fetch, outputJSON } from '../mocks'
 
-export default doGet;
+export default function doGet(e) {
+  if (!e || !e.parameter || !e.parameter.package || !e.queryString) {
+    throw "Bad parameters";
+  }
 
-function doGet(e) {
   const feed: JSONFeed = {
     "version": "https://jsonfeed.org/version/1",
     "title": `RedHat ${e.parameter.package} CVEs`,
@@ -10,7 +13,7 @@ function doGet(e) {
     "items": []
   }
 
-  const content = UrlFetchApp.fetch(feed.home_page_url+"?"+e.queryString).getContentText();
+  const content = fetch(feed.home_page_url+"?"+e.queryString);
   const json = JSON.parse(content);
   feed.items = json.map(item => {
     return {
@@ -22,5 +25,5 @@ function doGet(e) {
     } as JSONFeedItem
   });
 
-  return ContentService.createTextOutput(JSON.stringify(feed)).setMimeType(ContentService.MimeType.JSON);
+  return outputJSON(feed);
 }
