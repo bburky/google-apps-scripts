@@ -27,5 +27,6 @@ export default function doGet() {
     } as JSONFeedItem;
   }).toArray();
 
+  console.log(`Fetched ${feed.items.length} items`);
   return outputJSON(feed);
 }
