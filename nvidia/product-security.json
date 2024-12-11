@@ -1,0 +1,1075 @@
+{
+  "columns": {
+    "tableColumns": {
+      "title": {
+        "en": "Title"
+      },
+      "bulletin id": {
+        "en": "Bulletin ID"
+      },
+      "severity": {
+        "en": "Severity"
+      },
+      "cve identifier(s)": "CVE Identifier(s)",
+      
+      "publish date": {
+        "en": "Publish Date"
+      },
+      "last updated": {
+        "en": "Last Updated"
+      }
+    },
+    "columnType": {
+      "publish date": "Date",
+      "last updated": "Date"
+    }
+  },
+  "footer": {
+    "en": ""
+  },
+  "data": [
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5584' target='_blank'>NVIDIA® UFM Products - November 2024</a>",
+      "bulletin id": "5584",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0130",
+      "publish date": "26 Nov 2024",
+      "last updated": "26 Nov 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5600' target='_blank'>NVIDIA Base Command and Bright Cluster Managers - November 2024</a>",
+      "bulletin id": "5600",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2024-0139",
+      "publish date": "26 Nov 2024",
+      "last updated": "26 Nov 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5595' target='_blank'>NVIDIA® Base Command Manager - November 2024</a>",
+      "bulletin id": "5595",
+      "severity": "Critical",
+      "cve identifier(s)": "CVE-2024-0138",
+      "publish date": "18 Nov 2024",
+      "last updated": "18 Nov 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5570' target='_blank'>NVIDIA® Delegated License System - November 2024</a>",
+      "bulletin id": "5570",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0122",
+      "publish date": "18 Nov 2024",
+      "last updated": "18 Nov 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5585' target='_blank'>NVIDIA® Container Toolkit - November 2024</a>",
+      "bulletin id": "5585",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2024-0134",
+      "publish date": "5 Nov 2024",
+      "last updated": "5 Nov 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5562' target='_blank'>NVIDIA® ConnectX and BlueField - October 2024</a>",
+      "bulletin id": "5562",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0105, CVE-2024-0106",
+      "publish date": "29 Oct 2024",
+      "last updated": "29 Oct 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5586' target='_blank'>NVIDIA® GPU Display Drivers - October 2024</a>",
+      "bulletin id": "5586",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0117, CVE-2024-0118, CVE-2024-0119, CVE-2024-0120, CVE-2024-0121, CVE-2024-0126, CVE-2024-0127, CVE-2024-0128",
+      "publish date": "22 Oct 2024",
+      "last updated": "22 Oct 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5580' target='_blank'>NVIDIA® NeMo - October 2024</a>",
+      "bulletin id": "5580",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2024-0129",
+      "publish date": "15 Oct 2024",
+      "last updated": "15 Oct 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5577' target='_blank'>NVIDIA® CUDA Toolkit - October 2024</a>",
+      "bulletin id": "5577",
+      "severity": "Low",
+      "cve identifier(s)": "CVE-2024-0123, CVE-2024-0124, CVE-2024-0125",
+      "publish date": "2 Oct 2024",
+      "last updated": "2 Oct 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5565' target='_blank'>NVIDIA® Triton Inference Server - September 2024</a>",
+      "bulletin id": "5565",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2024-0116",
+      "publish date": "30 Sep 2024",
+      "last updated": "30 Sep 2024"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5582' target='_blank'>NVIDIA Container Toolkit - September 2024</a>",
+      "bulletin id": "5582",
+      "severity": "Critical",
+      "cve identifier(s)": "CVE-2024-0132, CVE-2024-0133",
+      "publish date": "25 Sep 2024",
+      "last updated": "25 Sep 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5564' target='_blank'>NVIDIA® CUDA Toolkit - August 2024</a>",
+      "bulletin id": "5564",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2024-0109, CVE-2024-0110, CVE-2024-0111",
+      "publish date": "29 Aug 2024",
+      "last updated": "29 Aug 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5563' target='_blank'>NVIDIA® Mellanox OS, ONYX, Skyway, MetroX - August 2024</a>",
+      "bulletin id": "5563",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0113",
+      "publish date": "7 Aug 2024",
+      "last updated": "7 Aug 2024"
+    },
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5560' target='_blank'>NVIDIA® CV-CUDA - August 2024</a>",
+      "bulletin id": "5560",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2024-0115",
+      "publish date": "7 Aug 2024",
+      "last updated": "7 Aug 2024"
+    },
+	
+	{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5559' target='_blank'>NVIDIA® Mellanox OS, ONYX, Skyway, MetroX-3 XC - July 2024</a>",
+      "bulletin id": "5559",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0101, CVE-2024-0104",
+      "publish date": "23 Jul 2024",
+      "last updated": "23 Jul 2024"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5555' target='_blank'>NVIDIA® Jetson AGX Xavier Series, Jetson Xavier NX, Jetson TX1, Jetson TX2 Series (including Jetson TX2 NX), and Jetson Nano (including Jetson Nano 2GB) - July 2024</a>",
+      "bulletin id": "5555",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0108",
+      "publish date": "23 Jul 2024",
+      "last updated": "23 Jul 2024"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5548' target='_blank'>NVIDIA® CUDA Toolkit - July 2024</a>",
+      "bulletin id": "5548",
+      "severity": "Low",
+      "cve identifier(s)": "CVE-2024-0102",
+      "publish date": "11 Jul 2024",
+      "last updated": "11 Jul 2024"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5557' target='_blank'>NVIDIA® GPU Display Driver - July 2024</a>",
+      "bulletin id": "5557",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0107",
+      "publish date": "9 Jul 2024",
+      "last updated": "9 Jul 2024"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5551' target='_blank'>NVIDIA® GPU Display Driver - June 2024</a>",
+      "bulletin id": "5551",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0084, CVE-2024-0085, CVE-2024-0086, CVE-2024-0089, CVE-2024-0090, CVE-2024-0091, CVE-2024-0092, CVE-2024-0093, CVE-2024-0094,CVE-2024-0099",
+      "publish date": "6 Jun 2024",
+      "last updated": "6 Jun 2024"
+    },
+    
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5546' target='_blank'>NVIDIA® Triton Inference Server - May 2024</a>",
+      "bulletin id": "5546",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2024-0095, CVE-2024-0103",
+      "publish date": "29 May 2024",
+      "last updated": "29 May 2024"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5533' target='_blank'>NVIDIA® ChatRTX - May 2024</a>",
+      "bulletin id": "5533",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0096, CVE-2024-0097, CVE-2024-0098",
+      "publish date": "01 May 2024",
+      "last updated": "01 May 2024"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5535' target='_blank'>NVIDIA® Triton Inference Server - April 2024</a>",
+      "bulletin id": "5535",
+      "severity": "Critical",
+      "cve identifier(s)": "CVE-2024-0087, CVE-2024-0088, CVE-2024-0100",
+      "publish date": "01 May 2024",
+      "last updated": "01 May 2024"
+    },
+  {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5517' target='_blank'>NVIDIA® CUDA Toolkit - April 2024</a>",
+      "bulletin id": "5517",
+      "severity": "Low",
+      "cve identifier(s)": "CVE-2023-31028, CVE-2024-0072, CVE-2024-0076, CVE-2024-0080",
+      "publish date": "03 Apr 2024",
+      "last updated": "03 Apr 2024"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5532' target='_blank'>NVIDIA® ChatRTX - March 2024</a>",
+      "bulletin id": "5532",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0082, CVE-2024-0083",
+      "publish date": "26 Mar 2024",
+      "last updated": "26 Mar 2024"
+    },
+  {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5520' target='_blank'>NVIDIA® GPU Display Driver - February 2024</a>",
+      "bulletin id": "5520",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2024-0071, CVE-2024-0073, CVE-2024-0074, CVE-2024-0078, CVE-2024-0075, CVE-2022-42265, CVE-2024-0077, CVE-2024-0079",
+      "publish date": "28 Feb 2024",
+      "last updated": "28 Feb 2024"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5513' target='_blank'>NVIDIA® DGX Station A100 and DGX Station A800 - February 2024</a>",
+      "bulletin id": "5513",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-42271, CVE-2022-42272, CVE-2022-42273, CVE-2022-42274, CVE-2022-42275, CVE-2022-42279, CVE-2022-42280, CVE-2022-42282, CVE-2022-42283, CVE-2022-42284, CVE-2022-42287, CVE-2022-42288, CVE-2022-42289, CVE-2022-42290, CVE-2023-25521, CVE-2023-31031, CVE-2023-31032, CVE-2023-31034",
+      "publish date": "08 Feb 2024",
+      "last updated": "08 Feb 2024"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5511' target='_blank'>NVIDIA® BlueField 2 and 3 BMC - January 2024</a>",
+      "bulletin id": "5511",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-31037",
+      "publish date": "22 Jan 2024",
+      "last updated": "22 Jan 2024"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5510' target='_blank'>NVIDIA® DGX H100 and A100 - January 2024</a>",
+      "bulletin id": "5510",
+      "severity": "Critical",
+      "cve identifier(s)": "CVE-2023-25529, CVE-2023-25530, CVE-2023-31024, CVE-2023-31025, CVE-2023-31029, CVE-2023-31030, CVE-2023-31031, CVE-2023-31032, CVE-2023-31033, CVE-2023-31034, CVE-2023-31035",
+      "publish date": "11 Jan 2024",
+      "last updated": "11 Jan 2024"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5509' target='_blank'>NVIDIA® Triton Inference Server - December 2023</a>",
+      "bulletin id": "5509",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-31036",
+      "publish date": "19 Dec 2023",
+      "last updated": "19 Dec 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5493' target='_blank'>Security Notice: Triton Inference Server - November 2023</a>",
+      "bulletin id": "5493",
+      "severity": "N/A",
+      "cve identifier(s)": "N/A",
+      "publish date": "30 Nov 2023",
+      "last updated": "30 Nov 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5491' target='_blank'>NVIDIA® GPU Display Driver - October 2023</a>",
+      "bulletin id": "5491",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-31016, CVE-2023-31017, CVE-2023-31018, CVE-2023-31019, CVE-2023-31020, CVE-2023-31021, CVE-2023-31022, CVE-2023-31023, CVE-2023-31026, CVE-2023-31027",
+      "publish date": "31 Oct 2023",
+      "last updated": "31 Oct 2023"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5480' target='_blank'>NVIDIA® Cumulus Linux - September 2023</a>",
+      "bulletin id": "5480",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-25525, CVE-2023-25526",
+      "publish date": "06 Sep 2023",
+      "last updated": "06 Sep 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5479' target='_blank'>NVIDIA® BlueField Data Processing Unit - September 2023</a>",
+      "bulletin id": "5479",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-25519",
+      "publish date": "06 Sep 2023",
+      "last updated": "06 Sep 2023"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5476' target='_blank'>NVIDIA® GeForce Now for Android - August 2023</a>",
+      "bulletin id": "5476",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2023-31014",
+      "publish date": "28 Aug 2023",
+      "last updated": "28 Aug 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5473' target='_blank'>NVIDIA® DGX H100 - August 2023</a>",
+      "bulletin id": "5473",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-25527, CVE-2023-25528, CVE-2023-25529, CVE-2023-25530, CVE-2023-25531, CVE-2023-25532, CVE-2023-25533, CVE-2023-31008, CVE-2023-31009, CVE-2023-31010, CVE-2023-31011, CVE-2023-31012, CVE-2023-31013, CVE-2023-31015",
+      "publish date": "28 Aug 2023",
+      "last updated": "28 Aug 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5472' target='_blank'>NVIDIA® Omniverse Launcher - August 2023</a>",
+      "bulletin id": "5472",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2023-25524",
+      "publish date": "03 Aug 2023",
+      "last updated": "03 Aug 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5461' target='_blank'>NVIDIA® DGX A100 and DGX A800 - June 2023</a>",
+      "bulletin id": "5461",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-25521, CVE-2023-25522",
+      "publish date": "30 Jun 2023",
+      "last updated": "30 Jun 2023"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5469' target='_blank'>NVIDIA® CUDA Toolkit - June 2023</a>",
+      "bulletin id": "5469",
+      "severity": "Low",
+      "cve identifier(s)": "CVE-2023-25523",
+      "publish date": "29 Jun 2023",
+      "last updated": "29 Jun 2023"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5468' target='_blank'>NVIDIA® GPU Display Driver - June 2023</a>",
+      "bulletin id": "5468",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-34671, CVE-2023-25515, CVE-2023-25516, CVE-2023-25517",
+      "publish date": "26 Jun 2023",
+      "last updated": "26 Jun 2023"
+    },
+    
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5466' target='_blank'>NVIDIA® Jetson - June 2023</a>",
+      "bulletin id": "5466",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-25518, CVE-2023-25520 ",
+      "publish date": "23 Jun 2023",
+      "last updated": "23 Jun 2023"
+    },
+    
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5456' target='_blank'>NVIDIA® CUDA Toolkit - April 2023</a>",
+      "bulletin id": "5456",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2023-25510, CVE-2023-25511, CVE-2023-25512, CVE-2023-25513, CVE-2023-25514 ",
+      "publish date": "21 Apr 2023",
+      "last updated": "21 Apr 2023"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5458' target='_blank'>NVIDIA® DGX-1 - April 2023</a>",
+      "bulletin id": "5458",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-0209, CVE-2023-25505, CVE-2023-25506, CVE-2023-25507, CVE-2023-25508, CVE-2023-25509",
+      "publish date": "19 Apr 2023",
+      "last updated": "14 Jul 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5459' target='_blank'>Security Bulletin: NVIDIA ConnectX - April 2023</a>",
+      "bulletin id": "5459",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2023-0203, CVE-2023-0204 CVE-2023-0205",
+      "publish date": "18 Apr 2023",
+      "last updated": "18 Apr 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5453' target='_blank'>NVIDIA DCGM - March 2023</a>",
+      "bulletin id": "5453",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-0208",
+      "publish date": "31 Mar 2023",
+      "last updated": "31 Mar 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5452' target='_blank'>NVIDIA® GPU Display Driver - March 2023</a>",
+      "bulletin id": "5452",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-0189, CVE-2023-0184, CVE-2023-0182, CVE-2023-0181, CVE-2023-0191, CVE-2023-0183, CVE-2023-0180, CVE-2023-0185, CVE-2023-0198, CVE-2023-0187, CVE-2023-0199, CVE-2023-0186, CVE-2023-0190, CVE-2023-0188, CVE-2023-0192, CVE-2023-0194, CVE-2023-0195, CVE-2023-0197",
+      "publish date": "30 Mar 2023",
+      "last updated": "30 Mar 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5449' target='_blank'>NVIDIA DGX-2, DGX Station A100, and DGX A100 - March 2023</a>",
+      "bulletin id": "5449",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-42274, CVE-2022-42280, CVE-2022-42282, CVE-2022-42283, CVE-2022-42286, CVE-2022-42287, CVE-2022-42289, CVE-2022-42290, CVE-2023-0200, CVE-2023-0201",
+      "publish date": "23 Mar 2023",
+      "last updated": "23 Mar 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5446' target='_blank'>NVIDIA CUDA Toolkit - March 2023</a>",
+      "bulletin id": "5446",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2023-0193, CVE-2023-0196",
+      "publish date": "01 Mar 2023",
+      "last updated": "01 Mar 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5384' target='_blank'>NVIDIA GeForce Experience - January 2023</a>",
+      "bulletin id": "5384",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-42291, CVE-2022-31611, CVE-2022-42292",
+      "publish date": "30 Jan 2023",
+      "last updated": "30 Jan 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5442' target='_blank'>NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson AGX Orin Series - January 2023</a>",
+      "bulletin id": "5442",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-42270",
+      "publish date": "25 Jan 2023",
+      "last updated": "25 Jan 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5418' target='_blank'>NVIDIA Omniverse Kit - January 2023</a>",
+      "bulletin id": "5418",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-42268",
+      "publish date": "10 Jan 2023",
+      "last updated": "10 Jan 2023"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5435' target='_blank'>NVIDIA DGX A100 Server and DGX Station A100 - December 2022</a>",
+      "bulletin id": "5435",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-42271, CVE-2022-42272, CVE-2022-42273, CVE-2022-42274, CVE-2022-42275, CVE-2022-42276, CVE-2022-42277, CVE-2022-42278, CVE-2022-42279, CVE-2022-42280, CVE-2022-42281, CVE-2022-42282, CVE-2022-42283, CVE-2022-42284, CVE-2022-42285, CVE-2022-42286, CVE-2022-42287, CVE-2022-42288, CVE-2022-42289, CVE-2022-42290",
+      "publish date": "19 Dec 2022",
+      "last updated": "19 Dec 2022"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5417' target='_blank'>Security Bulletin: NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson TX1, Jetson TX2 Series (including Jetson TX2 NX), and Jetson Nano (including Jetson Nano 2GB) - November 2022</a>",
+      "bulletin id": "5417",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-42269, CVE-2022-42270",
+      "publish date": "30 Nov 2022",
+      "last updated": "30 Nov 2022"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5415' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - November 2022</a>",
+      "bulletin id": "5415",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-34670, CVE-2022-34671, CVE-2022-34672. CVE-2022-34673, CVE-2022-34674, CVE-2022-34675, CVE-2022-34676, CVE-2022-34677, CVE-2022-34678, CVE-2022-34679, CVE-2022-34680, CVE-2022-34681, CVE-2022-34682, CVE-2022-34683, CVE-2022-34684, CVE-2022-42254, CVE-2022-42255, CVE-2022-42256, CVE-2022-42257, CVE-2022-42258, CVE-2022-42259, CVE-2022-42260, CVE-2022-42261, CVE-2022-42262, CVE-2022-42263, CVE-2022-42264, CVE-2022-42265, CVE-2022-42266, CVE-2022-42267",
+      "publish date": "29 Nov 2022",
+      "last updated": "20 Dec 2022"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5405' target='_blank'>Security Notice: NVIDIA Response to OpenSSL Vulnerabilities - November 2022</a>",
+      "bulletin id": "5405",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-3786, CVE-2022-3602",
+      "publish date": "1 Nov 2022",
+      "last updated": "30 Nov 2022"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5373' target='_blank'>Security Bulletin: NVIDIA CUDA Toolkit - October 2022</a>",
+      "bulletin id": "5373",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2022-34667",
+      "publish date": "7 Oct 2022",
+      "last updated": "7 Oct 2022"
+    },
+    {      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5389' target='_blank'>Security Bulletin: NVIDIA Data Plane Development Kit (MLNX_DPDK) - August 2022</a>",
+      "bulletin id": "5389",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2022-28199",
+      "publish date": "29 Aug 2022",
+      "last updated": "29 Aug 2022"
+    },
+
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5383' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - August 2022</a>",
+      "bulletin id": "5383",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-31606, CVE-2022-31607, CVE-2022-31608, CVE-2022-31610, CVE-2022-31617, CVE-2022-31612, CVE-2022-31613, CVE-2022-31609, CVE-2022-31614, CVE-2022-31618, CVE-2022-34665, CVE-2022-31616,CVE-2022-31615",
+      "publish date": "2 Aug 2022",
+      "last updated": "2 Aug 2022"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5367' target='_blank'>Security Bulletin: NVIDIA DGX A100 Firmware - June 2022</a>",
+      "bulletin id": "5367",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-28200, CVE-2022-31599, CVE-2022-31600, CVE-2022-31601, CVE-2022-31602, CVE-2022-31603",
+      "publish date": "7 Jun 2022",
+      "last updated": "7 Jun 2022"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5353' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - May 2022</a>",
+      "bulletin id": "5353",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-28181, CVE-2022-28182, CVE-2022-28183, CVE-2022-28184, CVE-2022-28185, CVE-2022-28186, CVE-2022-28187, CVE-2022-28188, CVE-2022-28189, CVE-2022-28190, CVE-2022-28191, CVE-2022-28192",
+      "publish date": "16 May 2022",
+      "last updated": "24 May 2022"
+    },
+
+
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5342' target='_blank'>Security Bulletin: NVIDIA Omniverse Nucleus and Omniverse Cache - April 2022</a>",
+      "bulletin id": "5342",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2022-28198",
+      "publish date": "28 April 2022",
+      "last updated": "28 April 2022"
+    },
+
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5343' target='_blank'>Security Bulletin: NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson TX1, Jetson TX2 Series (including Jetson TX2 NX) - April 2022</a>",
+      "bulletin id": "5343",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-28193, CVE-2022-28194, CVE-2022-28195, CVE-2022-28196, CVE-2022-28197",
+      "publish date": "26 April 2022",
+      "last updated": "26 April 2022"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5334' target='_blank'>Security Bulletin: NVIDIA CUDA Toolkit - March 2022</a>",
+      "bulletin id": "5334",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2022-21821",
+      "publish date": "28 Mar 2022",
+      "last updated": "28 Mar 2022"
+    },
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5328' target='_blank'>Security Bulletin: NVIDIA Data Center GPU Manager (DCGM) - March 2022</a>",
+      "bulletin id": "5328",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2022-21820",
+      "publish date": "17 Mar 2022",
+      "last updated": "23 Mar 2022"
+    }, 
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5333' target='_blank'>Security Notice: NVIDIA Response to Security Incident - March 2022</a>",
+      "bulletin id": "5333",
+      "severity": "N/A",
+      "cve identifier(s)": "N/A",
+      "publish date": "1 Mar 2022",
+      "last updated": "8 Mar 2022"
+    }, 
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5321' target='_blank'>Security Bulletin: NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson TX1, Jetson TX2 Series (including Jetson TX2 NX), and Jetson Nano (including Jetson Nano 2GB) - March 2022</a>",
+      "bulletin id": "5321",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2021-34401, CVE-2021-4034, CVE-2022-21819",
+      "publish date": "8 Mar 2022",
+      "last updated": "8 Mar 2022"
+    },
+
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5319' target='_blank'>Security Bulletin: NVIDIA License System - February 2022</a>",
+      "bulletin id": "5319",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2022-21818",
+      "publish date": "14 Feb 2022",
+      "last updated": "14 Feb 2022"
+    }, 
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5312' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - February 2022</a>",
+      "bulletin id": "5312",
+      "severity": "Medium",
+      "cve identifier(s)": "CVE-2022-21813, CVE-2022-21814, CVE-2022-21815, CVE-2022-21816",
+      "publish date": "1 Feb 2022",
+      "last updated": "1 Feb 2022"
+    }, 
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5318' target='_blank'>Security Bulletin: NVIDIA Omniverse Launcher - January 2022</a>",
+      "bulletin id": "5318",
+      "severity": "Critical",
+      "cve identifier(s)": "CVE-2022-21817",
+      "publish date": "31 Jan 2022",
+      "last updated": "31 Jan 2022"
+    }, 
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5259' target='_blank'>Security Bulletin: NVIDIA SHIELD TV - January 2022</a>",
+      "bulletin id": "5259",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2021-1106, CVE-2021-1107, CVE-2021-1108, CVE-2021-1112, CVE-2021-34401, CVE-2021-34402, CVE-2021-34403, CVE-2021-34404, CVE-2021-34405, CVE-2021-34406",
+      "publish date": "12 Jan 2022",
+      "last updated": "12 Jan 2022"
+    }, 
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5294' target='_blank'>Security Notice: NVIDIA Response to Apache Log4j Vulnerabilities - December 2021</a>",
+      "bulletin id": "5294",
+      "severity": "Critical",
+      "cve identifier(s)": "CVE-2021-44228 (Log4Shell), CVE-2021-45046, CVE-2021-45105",
+      "publish date": "13 Dec 2021",
+      "last updated": "2 Feb 2022"
+    }, 
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5295' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - December 2021</a>",
+      "bulletin id": "5295",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2021-23175",
+      "publish date": "21 Dec 2021",
+      "last updated": "21 Dec 2021"
+    }, 
+{      
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5263' target='_blank'>Security Notice: NVIDIA GPU and Tegra Hardware - November 2021</a>",
+      "bulletin id": "5263",
+      "severity": "High",
+      "cve identifier(s)": "CVE-2021-23201, CVE-2021-23217, CVE-2021-34400, CVE-2021-34399, CVE-2021-34399, CVE-2021-1125, CVE-2021-1105, CVE-2021-1088",
+      "publish date": "19 Nov 2021",
+      "last updated": "19 Nov 2021"
+    },  
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5230' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - October 2021</a>",
+      "bulletin id": "5230",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2021-1115, CVE-2021-1116, CVE-2021-1117, CVE-2021-1118, CVE-2021-1119, CVE-2021-1120, CVE-2021-1121, CVE-2021-1122, CVE-2021-1123",
+      "publish date": "26 Oct 2021",
+      "last updated": "2 Nov 2021"
+    },  
+ {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5219' target='_blank'>Security Bulletin: NVIDIA Data Center GPU Manager - August 2021</a>",
+      "bulletin id": "5219",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2021-34398",
+      "publish date": "6 Aug 2021",
+      "last updated": "6 Aug 2021"
+    },  
+ {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5216' target='_blank'>Security Bulletin: NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson TX1, Jetson TX2 Series (including Jetson TX2 NX), and Jetson Nano (including Jetson Nano 2GB)- August 2021</a>",
+      "bulletin id": "5216",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2021-1106, CVE-2021-1107, CVE-2021-1108, CVE-2021-1109, CVE-2021-1110, CVE-2021-1111, CVE-2021-1112, CVE-2021-1113, CVE-2021-1114",
+      "publish date": "4 Aug 2021",
+      "last updated": "18 Jan 2022"
+    },  
+ {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5213' target='_blank'>Security Bulletin: NVIDIA DGX-1 and NVIDIA DGX-2 Systems - July 2021</a>",
+      "bulletin id": "5213",
+	  "severity": "High",
+      "cve identifier(s)": "CVE‑2021‑0144",
+      "publish date": "22 Jul 2021",
+      "last updated": "22 Jul 2021"
+    },  
+{
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5211' target='_blank'>Security Bulletin: NVIDIA GPU Display Drivers - July 2021</a>",
+      "bulletin id": "5211",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2021-1089, CVE-2021-1090, CVE-2021-1091, CVE-2021-1092, CVE-2021-1093, CVE-2021-1094, CVE-2021-1095, CVE-2021-1096, CVE-2021-1097, CVE-2021-1098, CVE-2021-1099, CVE-2021-1100, CVE-2021-1101, CVE-2021-1102, CVE-2021-1103",
+      "publish date": "20 Jul 2021",
+      "last updated": "20 Jul 2021"
+    }, 
+  {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5199' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - June 2021</a>",
+      "bulletin id": "5199",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2021-1073",
+      "publish date": "24 Jun 2021",
+      "last updated": "24 Jun 2021"
+    },
+  {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5205' target='_blank'>Security Bulletin: NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson TX1, Jetson TX2 Series (including Jetson TX2 NX), and Jetson Nano (including Jetson Nano 2GB) - June 2021</a>",
+      "bulletin id": "5205",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2021-34372, CVE-2021-34373, CVE-2021-34374, CVE-2021-34375, CVE-2021-34376, CVE-2021-34377, CVE-2021-34378, CVE-2021-34379, CVE-2021-34380, CVE-2021-34381, CVE-2021-34382, CVE-2021-34383, CVE-2021-34384, CVE-2021-34385, CVE-2021-34386, CVE-2021-34387, CVE-2021-34388, CVE-2021-34389, CVE-2021-34390, CVE-2021-34391, CVE-2021-34392, CVE-2021-34393, CVE-2021-34394, CVE-2021-34395, CVE-2021-34396, CVE-2021-34397",
+      "publish date": "18 Jun 2021",
+      "last updated": "15 Jul 2021"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5172' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - April 2021</a>",
+      "bulletin id": "5172",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2021-1074, CVE-2021-1075, CVE-2021-1076, CVE-2021-1077, CVE-2021-1078, CVE-2021-1080, CVE-2021-1081, CVE-2021-1082, CVE-2021-1083, CVE-2021-1084, CVE-2021-1085, CVE-2021-1086, CVE-2021-1087",
+      "publish date": "19 Apr 2021",
+      "last updated": "27 May 2021"
+    },
+      {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5184' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - April 2021</a>",
+      "bulletin id": "5184",
+	  "severity": "Medium",
+      "cve identifier(s)": "CVE-2021-1079",
+      "publish date": "16 Apr 2021",
+      "last updated": "14 May 2021"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5155' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - February 2021</a>",
+      "bulletin id": "5155",
+	  "severity": "Medium",
+      "cve identifier(s)": "CVE-2021-1072",
+      "publish date": "04 Feb 2021",
+      "last updated": "04 Feb 2021"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5147' target='_blank'>Security Bulletin: NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, TX1, TX2, Nano and Nano 2GB - January 2021</a>",
+      "bulletin id": "5147",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2021-1069, CVE-2021-1070, CVE-2021-1071",
+      "publish date": "01 Jan 2021",
+      "last updated": "01 Jan 2021"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5148' target='_blank'>Security Bulletin: NVIDIA SHIELD TV - January 2021</a>",
+      "bulletin id": "5148",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2021-1067, CVE-2021-1068, CVE-2021-1069",
+      "publish date": "19 Jan 2021",
+      "last updated": "19 Jan 2021"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5142' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - January 2021</a>",
+      "bulletin id": "5142",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2021-1051, CVE-2021-1052, CVE-2021-1053, CVE-2021-1054, CVE-2021-1055, CVE-2021-1056, CVE-2021-1057, CVE-2021-1058, CVE-2021-1059, CVE-2021-1060, CVE-2021-1061, CVE-2021-1062, CVE-2021-1063, CVE-2021-1064, CVE-2021-1065, CVE-2021-1066",
+      "publish date": "07 Jan 2021",
+      "last updated": "23 Jun 2021"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5096' target='_blank'>Security Bulletin: NVIDIA GeForce NOW - November 2020</a>",
+      "bulletin id": "5096",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2020-5992",
+      "publish date": "10 Nov 2020",
+      "last updated": "10 Nov 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5094' target='_blank'>Security Bulletin: NVIDIA CUDA Toolkit - October 2020</a>",
+      "bulletin id": "5094",
+	  "severity": "Medium",
+      "cve identifier(s)": "CVE-2020-5991",
+      "publish date": "29 Oct 2020",
+      "last updated": "29 Oct 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5010' target='_blank'>Security Bulletin: AMI Baseboard Management Controller (BMC) Firmware Vulnerabilities in NVIDIA DGX-1, DGX-2, and DGX A100 Servers - October 2020</a>",
+      "bulletin id": "5010",
+	  "severity": "Critical",
+      "cve identifier(s)": "CVE-2020-11483, CVE-2020-11484, CVE-2020-11485, CVE-2020-11486, CVE-2020-11487, CVE-2020-11488, CVE-2020-11489, CVE-2020-11615, CVE-2020-11616",
+      "publish date": "28 Oct 2020",
+      "last updated": "01 Dec 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5076' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - October 2020</a>",
+      "bulletin id": "5076",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2020-5977, CVE-2020-5978, CVE-2020-5990",
+      "publish date": "22 Oct 2020",
+      "last updated": "28 Oct 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5075' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - September 2020</a>",
+      "bulletin id": "5075",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2020-5979, CVE-2020-5980, CVE-2020-5981, CVE-2020-5982, CVE-2020-5983, CVE-2020-5984, CVE-2020-5985 CVE-2020-5986, CVE-2020-5987, CVE-2020-5988, CVE-2020-5989",
+      "publish date": "10 Oct 2020",
+      "last updated": "10 Oct 2020"
+    },
+    
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5052' target='_blank'>Security Bulletin: NVIDIA GeForce NOW - September 2020</a>",
+      "bulletin id": "5052",
+	  "severity": "Medium",
+      "cve identifier(s)": "CVE-2020-5975, CVE-2020-5976",
+      "publish date": "16 Sep 2020",
+      "last updated": "16 Sep 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5044' target='_blank'>Security Notice: NVIDIA Response to Cisco Talos Report - July 2020</a>",
+      "bulletin id": "5044",
+	  "severity": "NVIDIA products are not affected",
+      "cve identifier(s)": "CVE-2020-1032, CVE-2020-1036, CVE-2020-1040, CVE-2020-1041, CVE-2020-1042, CVE-2020-1043, CVE-2020-6100, CVE-2020-6101, CVE-2020-6102, CVE-2020-6103",
+      "publish date": "16 Jul 2020",
+      "last updated": "16 Jul 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5039' target='_blank'>Security Bulletin: NVIDIA Jetson AGX Xavier, TX1, TX2, and Nano L4T - July 2020</a>",
+      "bulletin id": "5039",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2020-5974",
+      "publish date": "08 Jul 2020",
+      "last updated": "08 Jul 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5038' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - July 2020</a>",
+      "bulletin id": "5038",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2020-5964",
+      "publish date": "07 Jul 2020",
+      "last updated": "07 Jul 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5031' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - June 2020</a>",
+      "bulletin id": "5031",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2020-5962 CVE-2020-5963 CVE-2020-5964, CVE-2020-5965, CVE-2020-5966, CVE-2020-5967, CVE-2020-5968, CVE-2020-5969, CVE-2020-5970, CVE-2020-5971, CVE-2020-5972, CVE-2020-5973",
+      "publish date": "24 Jun 2020",
+      "last updated": "16 Jul 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/5033' target='_blank'>Security Notice: NVIDIA Response to Ripple20 - June 2020</a>",
+      "bulletin id": "5033",
+	  "severity": "NVIDIA products are not affected",
+      "cve identifier(s)": "CVE-2020-11896, CVE-2020-11897, CVE-2020-11898, CVE-2020-11899, CVE-2020-11900, CVE-2020-11901, CVE-2020-11902, CVE-2020-11903, CVE-2020-11904, CVE-2020-11905, CVE-2020-11906, CVE-2020-11907, CVE-2020-11908, CVE-2020-11909, CVE-2020-11910, CVE-2020-11911, CVE-2020-11912, CVE-2020-11913, CVE-2020-11914",
+      "publish date": "22 Jun 2020",
+      "last updated": "22 Jun 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4996' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - February 2020</a>",
+      "bulletin id": "4996",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2020-5957, CVE-2020-5958, CVE-2020-5959, CVE-2020-5960, CVE-2020-5961",
+      "publish date": "28 Feb 2020",
+      "last updated": "05 May 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4907' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - November 2019</a>",
+      "bulletin id": "4907",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5690, CVE-2019-2019-5691, CVE-2019-5692, CVE-2019-5693, CVE-2019-5694, CVE-2019-5695, CVE-2019-5696, CVE-2019-5697, CVE-2019-5698",
+      "publish date": "06 Nov 2019",
+      "last updated": "07 Jan 2020"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4954' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - December 2019</a>",
+      "bulletin id": "4954",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5702",
+      "last updated": "23 Dec 2019",
+      "publish date": "23 Dec 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4910' target='_blank'>Security Bulletin: Jetson AGX Xavier, TK1, TX1, TX2, and Nano L4T - December 2019</a>",
+      "bulletin id": "4910",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5699, CVE-2019-5700, CVE-2018-6268, CVE-2018-6240, CVE-2018-6271, CVE-2018-6267",
+      "publish date": "03 Dec 2019",
+      "last updated": "03 Dec 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4860' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - November 2019</a>",
+      "bulletin id": "4860",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5701, CVE-2019-2019-5689, CVE-2019-5695",
+      "publish date": "06 Nov 2019",
+      "last updated": "06 Nov 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4928' target='_blank'>Security Bulletin: NVIDIA NVFlash, GPUModeSwitch Tool - November 2019</a>",
+      "bulletin id": "4928",
+	  "severity": "Medium",
+      "cve identifier(s)": "CVE-2019-5688",
+      "publish date": "06 Nov 2019",
+      "last updated": "14 Nov 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4875' target='_blank'>Security Bulletin: NVIDIA SHIELD TV - October 2019</a>",
+      "bulletin id": "4875",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5699, CVE-2019-5700",
+      "publish date": "07 Oct 2019",
+      "last updated": "07 Oct 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4804' target='_blank'>Security Bulletin: NVIDIA SHIELD TV - August 2019</a>",
+      "bulletin id": "4804",
+	  "severity": "Critical",
+      "cve identifier(s)": "CVE-2019-5679, CVE-2018-6267, CVE-2018-6268, CVE-2018-6269, CVE-2019-5680, CVE-2019-5681, CVE-2019-5682, CVE-2018-6241, CVE-2017-6275, CVE-2018-6240",
+      "publish date": "02 Aug 2019",
+      "last updated": "23 Sep 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4841' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - August 2019</a>",
+      "bulletin id": "4841",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5683, CVE-2019-5684, CVE-2019-5685, CVE-2019-5686, CVE-2019-5687",
+      "publish date": "02 Aug 2019",
+      "last updated": "29 Aug 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4835' target='_blank'>Security Bulletin: NVIDIA Jetson TX1 and Jetson Nano L4T - July 2019</a>",
+      "bulletin id": "4835",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5680",
+      "publish date": "18 Jul 2019",
+      "last updated": "29 Jul 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4806' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - May 2019</a>",
+      "bulletin id": "4806",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5678, CVE-2019-5676",
+      "publish date": "30 May 2019",
+      "last updated": "30 May 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4797' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - May 2019</a>",
+      "bulletin id": "4797",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5675, CVE-2019-5676, CVE-2019-5677 ",
+      "publish date": "09 May 2019",
+      "last updated": "30 May 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4787' target='_blank'>Security Bulletin: NVIDIA Jetson TX1 and TX2 L4T - April 2019</a>",
+      "bulletin id": "4787",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5673, CVE-2019-5672, CVE-2018-6271, CVE-2018-6269, CVE-2018-6268, CVE-2018 6267, CVE-2018-3665, CVE-2018-3639, CVE-2018-6239, CVE-2017-6284, CVE-2017-6278, CVE 2017-6274, CVE-2017-0330",
+      "publish date": "02 Apr 2019",
+      "last updated": "02 Apr 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4784' target='_blank'>Security Bulletin: NVIDIA GeForce Experience – March 2019</a>",
+      "bulletin id": "4784",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5674",
+      "publish date": "26 Mar 2019",
+      "last updated": "27 Mar 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4772' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver - February 2019</a>",
+      "bulletin id": "4772",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2019-5665, CVE-2019-5666, CVE-2019-5667, CVE-2019-5668, CVE-2019-5669, CVE-2019-5670, CVE-2019-5671, CVE-2018-6260",
+      "publish date": "22 Feb 2019",
+      "last updated": "19 Mar 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4740' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - November 2018</a>",
+      "bulletin id": "4740",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2018-6263, CVE-2018-6265, CVE-2018-6266",
+      "publish date": "19 Nov 2018",
+      "last updated": "19 Nov 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4738' target='_blank'>Security Notice: NVIDIA Response to “Rendered Insecure: GPU Side Channel Attacks are Practical”– November 2018</a>",
+      "bulletin id": "4738",
+	  "severity": "Low",
+      "cve identifier(s)": "CVE-2018-6260",
+      "publish date": "09 Nov 2018",
+      "last updated": "22 Feb 2019"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4704' target='_blank'>Security Bulletin: NVIDIA SHIELD TV – October 2018</a>",
+      "bulletin id": "4704",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2017-5715, CVE-2017-6289, CVE-2017-6293, CVE-2018-6246",
+      "publish date": "16 Oct 2018",
+      "last updated": "16 Oct 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4725' target='_blank'>Security Bulletin: NVIDIA GeForce Experience - September 2018</a>",
+      "bulletin id": "4725",
+	  "severity": "High",
+      "cve identifier(s)": "CVE 2018-6261, CVE-2018-6262",
+      "publish date": "27 Sep 2018",
+      "last updated": "27 Sep 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4685' target='_blank'>Security Bulletin: NVIDIA GeForce Experience Software Security Updates for Multiple Vulnerabilities When GameStream is Enabled</a>",
+      "bulletin id": "4685",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2018-6257, CVE-2018-6258, CVE-2018-6259 ",
+      "publish date": "30 Aug 2018",
+      "last updated": "30 Aug 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4682' target='_blank'>Security Bulletin: NVIDIA SHIELD TV Software Security Updates for Multiple Vulnerabilities</a>",
+      "bulletin id": "4682",
+	  "severity": "Medium",
+      "cve identifier(s)": "CVE-2017-6290, CVE-2017-6292, CVE-2017-6294",
+      "publish date": "28 Jun 2018",
+      "last updated": "14 Sep 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4660' target='_blank'>Security Notice: NVIDIA Tegra RCM Vulnerability</a>",
+      "bulletin id": "4660",
+	  "severity": "None",
+      "cve identifier(s)": "CVE-2018-6242",
+      "publish date": "24 Apr 2018",
+      "last updated": "24 Apr 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4649' target='_blank'>Security Bulletin: NVIDIA GPU Display Driver security updates for multiple vulnerabilities</a>",
+      "bulletin id": "4649",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2018-6247, CVE-2018-6248, CVE-2018-6249, CVE-2018-6250, CVE-2018-6251, CVE-2018-6252, CVE-2018-6253 ",
+      "publish date": "28 Mar 2018",
+      "last updated": "28 Mar 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4632' target='_blank'>Security Bulletin: NVIDIA SHIELD Tablet security update for a Media Server vulnerability</a>",
+      "bulletin id": "4632",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2017-6276 ",
+      "publish date": "22 Mar 2018",
+      "last updated": "22 Mar 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4635' target='_blank'>Security Bulletin: NVIDIA Jetson TX1, Jetson TK1, Jetson TX2, and Tegra K1 L4T security updates for multiple vulnerabilities</a>",
+      "bulletin id": "4635",
+	  "severity": "Critical",
+      "cve identifier(s)": "CVE-2016-6776, CVE-2017-0328, CVE-2017-0339, CVE-2017-0448, CVE- 2017-6248, CVE-2017-6274, CVE-2017-6275, CVE-2017-6276, CVE-2017-6278, CVE-2017-6282, CVE-2017-6283",
+      "publish date": "20 Mar 2018",
+      "last updated": "08 Jun 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4631' target='_blank'>Security Bulletin: NVIDIA SHIELD TV Security Updates for Multiple Vulnerabilities</a>",
+      "bulletin id": "4631",
+	  "severity": "Critical",
+      "cve identifier(s)": "CVE-2017-6279, CVE-2017-6281, CVE-2017-6276, CVE-2017-6282, CVE-2017-6283, CVE-2017-6284, CVE-2017-6296, CVE-2017-6295, CVE-2017-13175",
+      "publish date": "15 Feb 2018",
+      "last updated": "15 Feb 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4610' target='_blank'>Security Bulletin: NVIDIA GeForce Experience Security Updates for CPU Speculative Side Channel Vulnerabilities</a>",
+      "bulletin id": "4610",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2017-5715, CVE-2017-5753, CVE-2017-5754",
+      "publish date": "09 Jan 2018",
+      "last updated": "16 jan 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4617' target='_blank'>Security Bulletin: NVIDIA Jetson TX2 L4T Security Updates for CPU Speculative Side Channel Vulnerabilities</a>",
+      "bulletin id": "4617",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2017-5715, CVE-2017-5753, CVE-2017-5754",
+      "publish date": "05 Jan 2018",
+      "last updated": "13 Mar 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4616' target='_blank'>Security Bulletin: NVIDIA Jetson TX1, Jetson TK1, and Tegra K1 L4T Security Updates for CPU Speculative Side Channel Vulnerabilities</a>",
+      "bulletin id": "4616",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2017-5715, CVE-2017-5753, CVE-2017-5754",
+      "publish date": "05 Jan 2018",
+      "last updated": "08 Jun 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4614' target='_blank'>Security Bulletin: NVIDIA Shield Tablet Security Updates for CPU Speculative Side Channel Vulnerabilities</a>",
+      "bulletin id": "4614",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2017-5715, CVE-2017-5753, CVE-2017-5754",
+      "publish date": "04 Jan 2018",
+      "last updated": "22 Mar 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4613' target='_blank'>Security Bulletin: NVIDIA Shield TV Security Updates for CPU Speculative Side Channel Vulnerabilities</a>",
+      "bulletin id": "4613",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2017-5715, CVE-2017-5753, CVE-2017-5754",
+      "publish date": "04 Jan 2018",
+      "last updated": "31 Jan 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4611' target='_blank'>Security Bulletin: NVIDIA Driver Security Updates for CPU Speculative Side Channel Vulnerabilities</a>",
+      "bulletin id": "4611",
+	  "severity": "High",
+      "cve identifier(s)": "CVE-2017-5715, CVE-2017-5753, CVE-2017-5754",
+      "publish date": "04 Jan 2018",
+      "last updated": "14 Feb 2018"
+    },
+    {
+      "title": "<a href='https://nvidia.custhelp.com/app/answers/detail/a_id/4609' target='_blank'>Security Notice: CPU Speculative Side Channel Vulnerabilities</a>",
+      "bulletin id": "4609",
+	  "severity": "None",
+      "cve identifier(s)": "CVE-2017-5715, CVE-2017-5753, CVE-2017-5754 ",
+      "publish date": "03 Jan 2018",
+      "last updated": "03 Jan 2018"
+    }
+    
+  ]
+}
