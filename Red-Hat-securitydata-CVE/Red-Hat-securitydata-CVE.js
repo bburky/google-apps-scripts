@@ -1,7 +1,7 @@
 /*
 Write a scraper written in google apps script that parses this public JSON data feed and serves it as an ATOM feed.
-JSON URL: https://securityupdates.mattermost.com/security_updates.json
-The url for the website is https://mattermost.com/security-updates/
+JSON URL: https://access.redhat.com/hydra/rest/securitydata/cve.json?package=${package_name_comma_separated}
+The url for the website is https://access.redhat.com/security/cve/${item.CVE} where item is a record from the API response.
 
 `updated` of each `entry` is set based on the JSON data, or is undefined if no date is available. Parse the date and convert with toISOString().
 Ensure data from all fields are included in the `summary` text.
@@ -93,57 +93,84 @@ function xmlescape(text) {
 }
 /** @param {GoogleAppsScript.Events.DoGet=} e */
 function doGet(e) {
-  // default to atom for local testing, but in a webpp deployment default to HTML
   if (e?.parameter && e.parameter.feed != 'atom') {
-    return outputHTML(
-      `<!doctype html>
-      <a href="https://feedly.com/i/subscription/feed/${encodeURIComponent(scriptURL + "?feed=atom")}" target="_top">Subscribe with Feedly</a><br>
-      <a href="${scriptURL}?feed=atom" target="_top">Raw ATOM feed</a>`
-    );
+    return outputHTML(`
+      <!doctype html>
+      <script>
+        function updateUrls() {
+          const package = document.getElementById('package').value;
+          const url = '${scriptURL}?feed=atom&package=' + encodeURIComponent(package);
+          document.getElementById('feedly').href = 'https://feedly.com/i/subscription/feed/' + encodeURIComponent(url);
+          document.getElementById('atom').href = url;
+        }
+      </script>
+      <input type="text" id="package" placeholder="Package name" oninput="updateUrls()">
+      <br>
+      <a id="feedly" href="#" target="_top">Subscribe with Feedly</a><br>
+      <a id="atom" href="#" target="_top">Raw ATOM feed</a>
+    `);
   }
 
+  const pkg = e?.parameter?.package
   const feedMetadata = {
-    dataUrl: 'https://api.example.com/data.json', // TODO
-    title: 'Example Security Updates / whatever', // TODO
-    link: 'https://example.com/security-updates/', // TODO
+    dataUrl: `https://access.redhat.com/hydra/rest/securitydata/cve.json?package=${encodeURIComponent(pkg)}`,
+    title: `Red Hat Security Data API - CVEs for ${pkg}`,
+    link: 'https://access.redhat.com/security/security-updates/cve',
     updated: new Date().toISOString(),
     id: scriptURL,
   }
 
   let responseText;
   try {
+    if (!pkg) {
+      throw new Error('Missing required package parameter');
+    }
+
     responseText = fetchText(feedMetadata.dataUrl);
     const data = JSON.parse(responseText);
-    const dataEntries = data; // TODO: set to data.entries or similar, or data if top level array
+    const dataEntries = data;  // Top level is array
 
     let entries = dataEntries.map(dataEntry => {
-      // TODO parse entry, check types of each field used from data (e.g. use Array.isArray()), and handle missing fields. Skip `typeof ... === string` checks.
 
-      // TODO if any required fields are missing, throw an exception that the data can't be parsed and include the serialized json of the entry.
-      // TODO only throw an error for REQUIRED fields, if possible generate a partial entry with the available fields.
+      if (!dataEntry.CVE) {
+        throw new Error(`Missing required CVE ID: ${JSON.stringify(dataEntry)}`);
+      }
 
       let summary = '';
+      if (dataEntry.severity) summary += `Severity: ${dataEntry.severity}\n`;
+      if (dataEntry.bugzilla_description) summary += `Description: ${dataEntry.bugzilla_description}\n`;
+      if (Array.isArray(dataEntry.advisories) && dataEntry.advisories.length) {
+        summary += `Advisories: ${dataEntry.advisories.join(', ')}\n`;
+      }
+      if (Array.isArray(dataEntry.affected_packages) && dataEntry.affected_packages.length) {
+        summary += `Affected Packages:\n${dataEntry.affected_packages.map(pkg => `- ${pkg}`).join('\n')}\n`;
+      }
 
       let updated;
-      const parsedDate = new Date(dataEntry.TODO); // TODO: extract date from field in dataEntry, use alternate parsing function if needed, do not use any libraries
+      const parsedDate = new Date(dataEntry.public_date);
       if (parsedDate && !isNaN(parsedDate.getTime())) {
         updated = parsedDate.toISOString();
       }
 
-      const ALL_EXPECTED_FIELDS = ['TODO', 'TODO', 'TODO']; // TODO, list of top level fields in the data entry
-      const unexpectedFields = Object.keys(dataEntry).filter(field => !ALL_EXPECTED_FIELDS.includes(field));
+      // 'cvss3_scoring_vector' and 'cvss3_score' are optional (missing in old CVEs)
+      const ALL_EXPECTED_FIELDS = ['CVE', 'severity', 'public_date', 'advisories', 'bugzilla', 'bugzilla_description',
+        'cvss_score', 'cvss_scoring_vector', 'CWE', 'affected_packages', 'package_state', 'resource_url'];
+      const unexpectedFields = Object.keys(dataEntry).filter(field =>
+        !ALL_EXPECTED_FIELDS.includes(field) &&
+        field !== 'cvss3_scoring_vector' &&
+        field !== 'cvss3_score'
+      );
       const missingFields = ALL_EXPECTED_FIELDS.filter(field => !Object.keys(dataEntry).includes(field));
       if (unexpectedFields.length || missingFields.length) {
-        // Put error message at the end of summary
         summary += `\n\nUnexpected fields: ${unexpectedFields.join(', ')}\nMissing fields: ${missingFields.join(', ')}`;
       }
 
       return {
-        title, // TODO, generate from data, include any existing title, otherwise CVE id, etc.
-        link, // TODO, omit if not available
-        id, // TODO: must be a URI, if none available use scriptURL + '#' + internal id, CVE id, etc. Use encodeURIComponent() where needed
-        updated, // TODO, omit if not available
-        summary, // TODO
+        title: `${dataEntry.CVE}: ${dataEntry.bugzilla_description || 'No description available'}`,
+        link: `https://access.redhat.com/security/cve/${dataEntry.CVE}`,
+        id: `https://access.redhat.com/security/cve/${dataEntry.CVE}`,
+        updated,
+        summary: summary.trim(),
       }
     });
 
@@ -177,5 +204,12 @@ function doGet(e) {
 }
 
 if (globalThis?.process?.env?.NODE_ENV === 'development') {
-  console.log(doGet());
+  console.log(doGet({
+    parameter: { feed: 'atom', package: 'keycloak' },
+    pathInfo: '',
+    contextPath: '',
+    contentLength: 0,
+    queryString: '',
+    parameters: {}
+  }));
 }
