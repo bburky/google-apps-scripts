@@ -27,17 +27,21 @@ let outputHTML;
 
 if (globalThis?.process?.env?.NODE_ENV === 'development') {
   const syncRequest = require('sync-request');
-  fetchText = (url, params) => syncRequest("GET", url, {
+  fetchText = (url, _) => syncRequest("GET", url, {
     headers: {
-      'user-agent': 'repository-ghsa.js',
-    },
-    ...params,
+      "user-agent": "repository-ghsa.js",
+      authorization: `Bearer ${process.env.GITHUB_TOKEN}`
+    }
   }).getBody().toString();
   outputText = (data) => data;
   outputHTML = (html) => html;
   scriptURL = 'https://example.com';
 } else {
-  fetchText = (url, params) => UrlFetchApp.fetch(url, params ?? {}).getContentText();
+  fetchText = (url, _) => UrlFetchApp.fetch(url, {
+    headers: {
+      authorization: `Bearer ${PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN')}`
+    }
+  }).getContentText();
   outputText = (data) => { console.log(data); return ContentService.createTextOutput(data) };
   outputHTML = (html) => HtmlService.createHtmlOutput(html);
   scriptURL = ScriptApp.getService().getUrl();
