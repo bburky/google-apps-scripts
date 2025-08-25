@@ -4,5 +4,8 @@
     "@types/google-apps-script": "^1.0.86",
     "sync-request": "^6.1.0",
     "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit --allowJs --skipLibCheck ${npm_config_args:-}" 
   }
 }
